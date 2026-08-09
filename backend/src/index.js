@@ -12,6 +12,7 @@ import job from "./lib/cron.js";
 
 import clerkWebhook from "./webhooks/clerk.webhook.js";
 import authRoutes from "./routes/auth.route.js";
+import messageRoutes from "./routes/message.route.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -30,7 +31,8 @@ app.get("/health", (req,res) => {
     res.status(200).json({ok: true});
 });
 
-app.use("/api/auth", authRoutes)
+app.use("/api/auth", authRoutes);
+app.use("/api/messages", messageRoutes);
 
 
 //if the public dirctory exists, serve the static files
