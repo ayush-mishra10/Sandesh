@@ -1,4 +1,4 @@
-export const APP_NAME = "Sandesh";
+export const APP_NAME = "iMessage";
 
 export function AppLogo({ className = "", size = 32, alt = APP_NAME }) {
   return (
