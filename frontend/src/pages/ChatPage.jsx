@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import ChatSidebar from "../components/chat/ChatSidebar";
 import { ChatHeader } from "../components/chat/ChatHeader";
 import { MessageList } from "../components/chat/MessageList";
-import { ChatComposer } from "/src/components/chat/ChatComposer";
+import { ChatComposer } from "src/components/chat/ChatComposer.jsx";
 
 function ChatPage() {
   const { frameStyle } = useWallpaper();
