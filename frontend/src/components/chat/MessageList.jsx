@@ -1,4 +1,4 @@
-import { useScrollToBottom } from "../../hooks/useScrolltoBottom";
+import { useScrollToBottom } from "../../hooks/useScrollToBottom";
 import { MessageBubble } from "./MessageBubble";
 import { NoConversationPlaceholder } from "./NoConversationPlaceholder";
 import { useSelectedConversation } from "../../hooks/useSelectedConversation";
